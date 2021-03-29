@@ -10,17 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/renancf01/clean-node-api.git"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
+ 
+  
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -29,7 +20,11 @@
   "homepage": "https://github.com/renancf01/clean-node-api#readme",
   "devDependencies": {
     "husky": "^4.3.8",
+    "jest": "^26.6.3",
     "lint-staged": "^10.5.4",
     "standard": "^16.0.3"
+  },
+  "jest": {
+    "verbose": true
   }
 }
